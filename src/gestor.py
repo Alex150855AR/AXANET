@@ -69,3 +69,7 @@ class GestorClientes:
             self._guardar_datos()
             return True
         return False
+
+    """
+    Simulacion de cambio
+    """
