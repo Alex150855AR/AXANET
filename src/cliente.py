@@ -38,3 +38,7 @@ class Cliente:
             "telefono": self.telefono,
             "direccion": self.direccion
         }
+
+    """
+    Simulacion decambio
+    """
