@@ -1,19 +1,26 @@
-# Entornos virtuales
+1. Entornos Virtuales
+
 venv/
 env/
 .env
 
-# Archivos de caché de Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+2. Archivos compilados y caché de Python
 
-# Archivos de datos locales
+pycache/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+3. Bases de Datos Locales y Logs
+
+(La persistencia de datos y logs no debe subir a GitHub por seguridad)
+
 data/clientes.json
 *.log
 
-# Entornos de desarrollo
+4. Entornos de Desarrollo (IDEs)
+
 .vscode/
 .idea/
-.pytest_cache/
+*.swp
+.DS_Store

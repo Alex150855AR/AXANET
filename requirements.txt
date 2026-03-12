@@ -1,2 +1,7 @@
-pytest==7.4.3
-flake8==6.1.0
+Framework para pruebas unitarias. Usado en testing.yml y localmente.
+
+pytest>=7.0.0
+
+Herramienta de Linting para verificar calidad y estilo de código (PEP8). Usado en lint.yml.
+
+flake8>=6.0.0
